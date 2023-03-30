@@ -1,7 +1,7 @@
 # Github-Profile-Search
 Welcome to my Github Profile Search project! This project is built using HTML, CSS, and JavaScript with the Fetch API and Async Await functions. The purpose of this project is to allow users to search for Github profiles and view their information.
 
-To use this project, simply enter a Github username into the search bar and click the search button. The user's profile information will be displayed, including their name, username, bio, number of followers and following, and a list of their repositories.
+To use this project, simply enter a Github username into the search bar and click the search button. The user's profile information will be displayed, including their name, username, bio, number of followers and following, and a list of their repositories.It is a Responsive webiste for mobile users as well.
 
 You can also sort the repositories based on forks,stars and size.
 
