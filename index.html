@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="searchbox">
+            <h1>Github Profile Wrapper</h1>
+            <div class="search">
+                <input type="text" name="username" id="username" placeholder="enter user" />
+                <button id="getprofile">Get Profile</button>
+            </div>
+            <div class="errormessage"></div>
+        </div>
+        <div id="profilecard"></div>
+        <div class="dropdown">
+            <h2 class="toprepos">Reposateries</h2>
+            <hr />
+            <button class="choose">Sort</button>
+            <div class="dropdowncontent">
+                <a class="dropdowndivs" id="stars">Stars</a>
+                <a class="dropdowndivs" id="folks">Folks</a>
+                <a class="dropdowndivs" id="size">Size</a>
+            </div>
+        </div>
+        <div class="repospace"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

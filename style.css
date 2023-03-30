@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.searchbox h1 {
+    font-size: 30px;
+    color: azure;
+}
+
+.container {
+    min-height: 100vh;
+    max-height: max-content;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(42, 48, 151);
+}
+
+.searchbox {
+    height: 130px;
+    width: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+}
+
+#username {
+    height: 28px;
+    max-height: max-content;
+    width: 240px;
+    text-align: left;
+    padding: 3px;
+    font-size: 16px;
+}
+
+#getprofile {
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    margin: 5px;
+    border: 2px solid lightblue;
+    color: rgb(192, 227, 239);
+    border-radius: 4px;
+}
+
+#profilecard {
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.profile {
+    height: 450px;
+    width: 320px;
+    background-color: rgb(13, 86, 187);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: 4px solid lightblue;
+    border-radius: 14px;
+}
+
+.profinfo {
+    max-height: fit-content;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    color: rgb(192, 227, 239);
+}
+
+.dp {
+    height: 200px;
+    width: 200px;
+    border: 2px solid lightblue;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.profinfoitems {
+    word-wrap: break-word;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.checkprof,
+.linkrepo {
+    height: 30px;
+    width: 170px;
+    background-color: blue;
+    margin: 5px;
+    border: 2px solid lightblue;
+    color: rgb(192, 227, 239);
+    border-radius: 4px;
+}
+
+.dropdown {
+    min-height: 160px;
+    max-height: max-content;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    visibility: collapse;
+}
+
+.choose {
+    height: 40px;
+    width: 190px;
+    background-color: blue;
+    border: 2px solid lightblue;
+    color: rgb(192, 227, 239);
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.dropdowncontent {
+    height: 0px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 2px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.toprepos {
+    color: aliceblue;
+    margin-inline: 20px;
+    font-size: 29px;
+}
+
+.dropdowndivs {
+    height: 50px;
+    width: 190px;
+    margin: 4px;
+    color: white;
+}
+
+.repospace {
+    min-height: 250px;
+    max-height: max-content;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: azure;
+}
+
+.repodiv {
+    height: 180px;
+    width: 300px;
+    border: 2px solid lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.stats {
+    height: 30px;
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
